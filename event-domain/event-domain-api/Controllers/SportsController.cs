@@ -18,4 +18,10 @@ public class SportsController : ControllerBase
     {
         return "Sports Controller";
     }
+
+    [HttpPost(Name = "PostSports")]
+    public string Post()
+    {
+        return "Sports Controller";
+    }
 }
